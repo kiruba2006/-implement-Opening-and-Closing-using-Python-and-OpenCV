@@ -78,7 +78,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 font = cv2.FONT_HERSHEY_SIMPLEX
 
 cv2.putText(image,
-            'Harini',
+            'Kiruba',
             (100, 250),
             font,
             1,
@@ -128,23 +128,21 @@ plt.show()
 
 ## Input Image with Text
 
-image image image
+<img width="514" height="556" alt="image" src="https://github.com/user-attachments/assets/11994a37-80dd-4787-a408-69301a7b74f2" />
+
 
 ## Opening Operation
 
-image image image
+<img width="543" height="561" alt="image" src="https://github.com/user-attachments/assets/d85e0b18-0048-4810-9eca-e075972e2e36" />
+
 
 ## Closing Operation
 
-image image image
+<img width="553" height="563" alt="image" src="https://github.com/user-attachments/assets/5762ef4c-59a8-4b80-af92-2338fb23fcb4" />
+
 
 ---
 
-# Description
-
-This experiment demonstrates the implementation of Morphological Opening and Closing operations using Python and OpenCV. Morphological Opening is performed by applying erosion followed by dilation, which helps in removing small noise and smoothing object boundaries. Morphological Closing is performed by applying dilation followed by erosion, which helps in filling small holes and connecting nearby objects. These operations are widely used in image preprocessing, segmentation, and noise removal applications.
-
----
 
 # Result
 
